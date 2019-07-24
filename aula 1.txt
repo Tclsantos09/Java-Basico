@@ -110,3 +110,4 @@ for (String nome: nomes){
 }
 
 o break quebra o laço de repetição
+o continue pula pro próximo comando
