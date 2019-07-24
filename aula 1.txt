@@ -1,0 +1,103 @@
+CLASSE JAVA
+bloco de app
+declaração começa MAIUSCULO e camelcase (declarar o nome de forma completa)
+public class Hello{
+}
+
+JAVA PACKAGE
+o package é o lugar que fica a classe 
+as classes ficam salvas no package (identificar o package com nome minusculo)
+
+classe de calcular media
+CalculoMedia.java
+
+pode estar em dois pacotes
+apple.CalculoMedia
+google.CalculoMedia
+identificar o pacote para não dar conflito caso tenha o mesmo nome
+
+MAIN METODO
+sem o Main não executa, sintaxe a mesma
+os dois estão corretos, porém o 2 é a melhor prática:
+1 - public static void main (String args []){}
+2 - public static void main (String [] args){}
+
++ concatena
+
+VARIAVEL
+referencia algo que pode ser mudado, a primeira letra da variavel minuscula e camelcase, não 
+pode ter espaço, pode declarar mais de uma variavel junto separa por virgula,
+
+Tipo	variavel	=	o valor
+String	firstName	=	"Thais";
+
+inicializar string mesmo sem valor, boa prática
+caso o nome seja reservado do Java usar _ no começo ex: String _string
+String = ""
+
+ctrl + espaço para completar o que está escrevendo
+
+int
+APENAS NO INT _ para facilitar a leitura de números grandes, não pode usar no inicio nem atras
+1_343_387
+
+double
+o . é como se fosse a ,
+5324654864.144 
+
+operadores basicos
++ soma
+- subtração
+* multiplicação
+/ divisão
+
+++ incremento
+-- decremento
+
+ordem
+parenteses
+++ ou -- (esquerda pra direita)
+* ou / (esquerda pra direita)
++ ou - (esquerda pra direita)
+
+(2+5) soma 7
+2+5 concatena 25
+
+float
+a o valor deve conter um "f" ao final para identificar que é float e não double
+ex: float x = 78.56f;
+
+char
+casting 
+
+sqrt raiz quadrada
+Math.sqrt
+
+!= diferente
+
+entrada de dados
+Scanner
+Scanner sc = new Scanner(System.in);
+int dia = sc.nextInt();
+
+tem que importar
+import java.util.Scanner;
+
+ARRAY
+sintaxe:
+tipo[] bome = {a, b, c};
+
+exemplos:
+String[] nomes = {"Thais", "Bob", "Carlos"}
+OU
+String [] nomes = new String[3];
+nomes = "Thais";
+nomes = "Bob";
+nomes = "Carlos";
+
+int[] idades = {21, 49, 23}
+OU
+int[] idades = new int[3];
+idades = 21;
+idades = 49;
+idades = 23;
