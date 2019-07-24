@@ -1,11 +1,11 @@
 CLASSE JAVA
 bloco de app
-declaraÁ„o comeÁa MAIUSCULO e camelcase (declarar o nome de forma completa)
+declara√ß√£o come√ßa MAIUSCULO e camelcase (declarar o nome de forma completa)
 public class Hello{
 }
 
 JAVA PACKAGE
-o package È o lugar que fica a classe 
+o package √© o lugar que fica a classe 
 as classes ficam salvas no package (identificar o package com nome minusculo)
 
 classe de calcular media
@@ -14,42 +14,42 @@ CalculoMedia.java
 pode estar em dois pacotes
 apple.CalculoMedia
 google.CalculoMedia
-identificar o pacote para n„o dar conflito caso tenha o mesmo nome
+identificar o pacote para n√£o dar conflito caso tenha o mesmo nome
 
 MAIN METODO
-sem o Main n„o executa, sintaxe a mesma
-os dois est„o corretos, porÈm o 2 È a melhor pr·tica:
+sem o Main n√£o executa, sintaxe a mesma
+os dois est√£o corretos, por√©m o 2 √© a melhor pr√°tica:
 1 - public static void main (String args []){}
 2 - public static void main (String [] args){}
 
 + concatena
 
 VARIAVEL
-referencia algo que pode ser mudado, a primeira letra da variavel minuscula e camelcase, n„o 
-pode ter espaÁo, pode declarar mais de uma variavel junto separa por virgula,
+referencia algo que pode ser mudado, a primeira letra da variavel minuscula e camelcase, n√£o 
+pode ter espa√ßo, pode declarar mais de uma variavel junto separa por virgula,
 
 Tipo	variavel	=	o valor
 String	firstName	=	"Thais";
 
-inicializar string mesmo sem valor, boa pr·tica
-caso o nome seja reservado do Java usar _ no comeÁo ex: String _string
+inicializar string mesmo sem valor, boa pr√°tica
+caso o nome seja reservado do Java usar _ no come√ßo ex: String _string
 String = ""
 
-ctrl + espaÁo para completar o que est· escrevendo
+ctrl + espa√ßo para completar o que est√° escrevendo
 
 int
-APENAS NO INT _ para facilitar a leitura de n˙meros grandes, n„o pode usar no inicio nem atras
+APENAS NO INT _ para facilitar a leitura de n√∫meros grandes, n√£o pode usar no inicio nem atras
 1_343_387
 
 double
-o . È como se fosse a ,
+o . √© como se fosse a ,
 5324654864.144 
 
 operadores basicos
 + soma
-- subtraÁ„o
-* multiplicaÁ„o
-/ divis„o
+- subtra√ß√£o
+* multiplica√ß√£o
+/ divis√£o
 
 ++ incremento
 -- decremento
@@ -64,7 +64,7 @@ parenteses
 2+5 concatena 25
 
 float
-a o valor deve conter um "f" ao final para identificar que È float e n„o double
+a o valor deve conter um "f" ao final para identificar que √© float e n√£o double
 ex: float x = 78.56f;
 
 char
@@ -101,3 +101,12 @@ int[] idades = new int[3];
 idades = 21;
 idades = 49;
 idades = 23;
+
+for each
+enquanto tiver um valor dentro do array nomes, cada valor vai ser atribuido ao nome um por um de acordo com o loop.
+String nomes[] = {"Thais", "Carlos", "Edu"}
+for (String nome: nomes){
+  System.out.println(nome);
+}
+
+o break quebra o la√ßo de repeti√ß√£o
