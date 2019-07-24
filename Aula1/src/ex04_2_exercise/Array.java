@@ -10,6 +10,8 @@ public class Array {
 		String [] nomes = new String[5];
 		double[] notas = new double[5];
 		
+		int [] lengths = {1,2,3};
+		
 		System.out.println("Digite o nome do aluno 1: ");
 		nomes[0] = sc.nextLine();
 		System.out.println("Digite o nome do aluno 2: ");
