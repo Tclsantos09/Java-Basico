@@ -12,31 +12,23 @@ public class Array {
 		
 		System.out.println("Digite o nome do aluno 1: ");
 		nomes[0] = sc.nextLine();
-		
 		System.out.println("Digite o nome do aluno 2: ");
 		nomes[1] = sc.nextLine();
-		
 		System.out.println("Digite o nome do aluno 3: ");
 		nomes[2] = sc.nextLine();
-		
 		System.out.println("Digite o nome do aluno 4: ");
 		nomes[3] = sc.nextLine();
-		
 		System.out.println("Digite o nome do aluno 5: ");
 		nomes[4] = sc.nextLine();
 		
 		System.out.println("Digite a nota do aluno 1: ");
 		notas[0] = sc.nextDouble();
-		
 		System.out.println("Digite a nota do aluno 2: ");
 		notas[1] = sc.nextDouble();
-		
 		System.out.println("Digite a nota do aluno 3: ");
 		notas[2] = sc.nextDouble();
-		
 		System.out.println("Digite a nota do aluno 4: ");
 		notas[3] = sc.nextDouble();
-		
 		System.out.println("Digite a nota do aluno 5: ");
 		notas[4] = sc.nextDouble();
 		
@@ -46,5 +38,4 @@ public class Array {
 				"\nAluno 4 " + nomes[3] + " tirou a nota " + notas[3] +
 				"\nAluno 5 " + nomes[4] + " tirou a nota " + notas[4]);
 	}
-
 }
