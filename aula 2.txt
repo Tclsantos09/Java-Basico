@@ -1,0 +1,21 @@
+OBJETOS
+propriedades: tamanho, cor, etc.
+comportamentos: pagar, comprar.
+classes são as propriedades e comportamentos do objeto
+
+metodos com letras minusculas e camelcase
+
+instancias
+ao instanciar um objeto usar a palavra new para reservar na memoria
+
+DOCUMENTAÇÃO
+https://docs.oracle.com/en/java/javase/12/
+
+classe string não precisa de new, e o valor não poder ser mudado, ele cria outro enderaço na 
+memoria para armazenar novo valor
+trim tira espaço da esquerda e direita
+String greet = " HOW ".trim();
+toLowerCase deixa minusculo
+String lc = greet + "DY".toLowerCase();
+toUpperCase deixa maiusculo
+indexOf
