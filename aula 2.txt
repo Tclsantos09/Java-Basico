@@ -19,3 +19,7 @@ toLowerCase deixa minusculo
 String lc = greet + "DY".toLowerCase();
 toUpperCase deixa maiusculo
 indexOf
+
+E &&
+OU ||
+NÃO !
