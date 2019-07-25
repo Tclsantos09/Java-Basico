@@ -21,8 +21,6 @@ public class ShoppingCart {
 		
 		System.out.println(message + "\n" + numero);
 		
-		
-		
 	}
 
 }
