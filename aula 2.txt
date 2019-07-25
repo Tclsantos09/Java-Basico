@@ -1,19 +1,19 @@
 OBJETOS
 propriedades: tamanho, cor, etc.
 comportamentos: pagar, comprar.
-classes s„o as propriedades e comportamentos do objeto
+classes s√£o as propriedades e comportamentos do objeto
 
 metodos com letras minusculas e camelcase
 
 instancias
 ao instanciar um objeto usar a palavra new para reservar na memoria
 
-DOCUMENTA«√O
+DOCUMENTA√á√ÉO
 https://docs.oracle.com/en/java/javase/12/
 
-classe string n„o precisa de new, e o valor n„o poder ser mudado, ele cria outro enderaÁo na 
+classe string n√£o precisa de new, e o valor n√£o poder ser mudado, ele cria outro endera√ßo na 
 memoria para armazenar novo valor
-trim tira espaÁo da esquerda e direita
+trim tira espa√ßo da esquerda e direita
 String greet = " HOW ".trim();
 toLowerCase deixa minusculo
 String lc = greet + "DY".toLowerCase();
@@ -22,4 +22,13 @@ indexOf
 
 E &&
 OU ||
-N√O !
+N√ÉO !
+
+SWITCH CASE
+SWITCH(MES){
+ CASE  1:
+SYSTEM.OUT.PRINTLN("JANEIRO");
+BREAK;
+DEFAULT:
+SYSTEM.OUT.PRINTLN("MES INVALIDO");
+}
